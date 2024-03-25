@@ -1,5 +1,5 @@
 asreview simulate --help > mostra as opções de simulação
 asreview algorithms > mostra os nomes dos classificadores, feature extractions, etc para serem usados no simulate
 exemplo:
-asreview simulate synergy:Nelson_2002 -m nn-2-layer -e embedding-lstm -s nelson_2002.asreview
-vai usar o dataset direto do synergy dataset com o nome Nelson_2002, classificador rede neural de 2 camadas ocultas (-m nn-2-layer) e embedding usando embedding-lstm(-e embedding-lstm)
+asreview simulate synergy:Nelson_2002 -m nn-2-layer -e sbert -s nelson_2002.asreview
+vai usar o dataset direto do synergy dataset com o nome Nelson_2002, classificador rede neural de 2 camadas ocultas (-m nn-2-layer) e embedding usando embedding-lstm(-e sbert)
