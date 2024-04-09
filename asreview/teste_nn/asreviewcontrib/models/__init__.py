@@ -1,1 +1,0 @@
-from asreviewcontrib.models.nn_2l_example import NN2LayerClassifier2

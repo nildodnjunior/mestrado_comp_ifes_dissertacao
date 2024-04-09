@@ -23,7 +23,7 @@ setup(
     ],
     entry_points={
         'asreview.models.classifiers': [
-            'nb_example = asreviewcontrib.models:NaiveBayesDefaultParamsModel',
+            'nn-4-layers = asreviewcontrib.models:NN4Layers',
         ],
         'asreview.models.feature_extraction': [
             # define feature_extraction algorithms
