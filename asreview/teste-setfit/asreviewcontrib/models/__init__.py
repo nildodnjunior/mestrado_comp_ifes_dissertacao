@@ -1,0 +1,1 @@
+from asreviewcontrib.models.setfit import SetFitClassifier
