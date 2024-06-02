@@ -1,0 +1,9 @@
+exemplo:
+https://api.openalex.org/works?filter=type:article,publication_year:>2018&search=artificial intelligence&sample=10000&per-page=200
+- filtra somente artigos
+- com ano de publicação maior que 2018
+- busca a expressão "artificial intelligence"
+- seleciona 10000 resultados aleatoriamente (originalmente retornou na ordem de 400 mil resultados)
+- mostra 200 resultados por página
+
+Existe também uma biblioteca para python: https://github.com/J535D165/pyalex
